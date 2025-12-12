@@ -1,0 +1,90 @@
+*{
+    font-size: xx-large;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5%;
+    overflow: hidden;
+    
+    
+}
+
+.topbar{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    min-width: 12.5rem;
+    max-width: 12.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: end;
+    min-height: 2.5rem;
+    max-height: 3rem;
+    font-size: 2rem;
+}
+
+.button{
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.7rem;
+    
+}
+.buttons{
+    padding: 1rem;
+    border-radius: 5%;
+    background-color: rgb(179, 172, 172);
+}
+.options{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-width: 12.5rem;
+}
+.clear{
+    background-color: rgb(30, 242, 104);
+    padding: 1rem;
+    border-radius: 5%;
+    min-width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 2.5rem;
+
+}
+.reset{
+    background-color: red;
+    padding: 1rem;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 5rem;
+    max-height: 2.5rem;
+}
+#enter{
+    background-color: blue;
+}
